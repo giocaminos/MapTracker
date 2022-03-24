@@ -1,0 +1,9 @@
+.container {
+  top: 20px;
+  position: fixed;
+  z-index: 999;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+.search-container {
+  margin-top: 70px;
+  z-index: 999;
+}
+
+.form-rounded {
+  border-radius: 15rem;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.resultbar {
+  text-align: center;
+  color: black;
+  background-color: white;
+  height: 20vh;
+  padding-top: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

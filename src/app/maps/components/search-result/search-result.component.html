@@ -1,0 +1,38 @@
+<table class="resultbar" *ngIf=" screenSmall ">
+    <td class="align">
+        <tr class="fontS">IP ADDRESS</tr>
+        <tr class="fontH">{{ placesServices.track.query }}</tr>        
+    </td>
+    <td class="separator"></td>
+    <td class="align">
+        <tr class="fontS">LOCATION</tr>
+        <tr class="fontH">{{ placesServices.track.country }}</tr>
+    </td>
+    <td class="separator"></td>
+    <td class="align">
+        <tr class="fontS">TIMEZONE</tr>
+        <tr class="fontH">{{ placesServices.track.timezone }}</tr>
+    </td>
+    <td class="separator"></td>
+    <td class="align">
+        <tr class="fontS">ISP</tr>
+        <tr class="fontH">{{ placesServices.track.isp }}</tr>
+    </td>
+</table>
+
+<table class="resultbar"  *ngIf=" !screenSmall ">
+    
+        <div class="fontS2" style="margin-top: 10px;">IP ADDRESS</div>
+        <div class="fontH2">{{ placesServices.track.query }}</div>        
+        <div class="fontS2">LOCATION</div>
+        <div class="fontH2">{{ placesServices.track.country }}</div>
+   
+        <div class="fontS2">TIMEZONE</div>
+        <div class="fontH2">{{ placesServices.track.timezone }}</div>
+
+        <div class="fontS2">ISP</div>
+        <div class="fontH2" style="margin-bottom: 10px;">{{ placesServices.track.isp }}</div>
+    
+</table>
+
+

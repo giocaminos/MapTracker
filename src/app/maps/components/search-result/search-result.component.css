@@ -1,0 +1,53 @@
+.fontH {
+  font-size: large;
+  font-weight: bold;
+}
+
+.fontS {
+  font-size: x-small;
+  color: rgb(131, 131, 131);
+  font-weight: bold;
+}
+.align {
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 4%;
+}
+
+.alignS tr {
+  text-align: center;
+
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.resultbar {
+  position: relative;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 90vw;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  background-color: white;
+  height: 20vh;
+
+  z-index: 999;
+}
+
+.separator {
+  background: linear-gradient(to bottom, white, rgb(197, 197, 197) 20%, white);
+}
+
+.fontH2 {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fontS2 {
+  font-size: x-small;
+  color: rgb(131, 131, 131);
+  font-weight: bold;
+  text-align: center;
+}

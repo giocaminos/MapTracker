@@ -1,0 +1,17 @@
+
+<div class="search-container" style="text-align: center; ">
+    
+    <div class="input-group form-rounded" >
+        <input #txtQuery   type="text" class="form-control " placeholder="Search for any IP address or domain" >
+        <div class="input-group-append">
+          <button class="btn btn-dark" type="button" (click)="getPlacesByQuery(txtQuery.value)"> > </button>
+        </div>
+      </div>
+</div>
+
+<div>
+    <app-search-result *ngIf="txtQuery.value.length > 0"></app-search-result>
+</div>
+    
+
+
